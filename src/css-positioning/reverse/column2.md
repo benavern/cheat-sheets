@@ -4,7 +4,7 @@ Like the best part of the other css properties, **position** property suports th
 
 ## - Initial
 
-Resets the value. We can consider this is like setting position to `static` <small>~~*(but this is not compatible with IE)*~~</small>.
+Resets the browser default value. Usualy, we can consider this is like setting position to `static` <small>~~*(but this is not compatible with IE)*~~</small>.
 
 ## - Inherit
 

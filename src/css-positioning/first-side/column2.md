@@ -21,11 +21,11 @@ image
 
 # Absolute
 
-An element that is absolutely positioned is no longer part of the (principal) DOM stream. Other elements in the DOM stream will not take care of it.
+An element with **absolute position** is no longer part of the main DOM stream, it creates its own one. Other elements in the main DOM stream will not affect or be affected by this element.
 
-Even if it is not consistent for the main DOM stream, it can be affected by the **size** and **z-index** properties. **relative offset** Affect it as well, but this time it will be regarding the first positioned parent or the document itself if none exists.
+Even if it is not consistent for the main DOM stream, it can be affected by the **size** and **z-index** properties. **Relative offset** affects it as well, but regarding the **first positioned parent** or the document itself if none exists.
 
-It is considered as positionned so its children will consider it their reference.
+Its children will consider it as a reference for their positioning.
 
 ```css
 .my-selector {

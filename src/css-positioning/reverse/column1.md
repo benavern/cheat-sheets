@@ -1,9 +1,9 @@
 
 # Fixed
 
-When an element position is fixed, this means the same than for absolutely positioned elements but ignoring all its positioned parent elements. It will always be positioned regarding the **viewport**.
+An element with **fixed position** behaves almost exactly like an element with **absolute position**. The only difference is that it will ignor all its positioned parent elements. It will always be positioned regarding the **viewport**.
 
-Positioning the element fixed regarding the viewport will cause these elements not to move when scrolling.
+Setting position fixed on an element will cause it not to move with the document when scrolling.
 
 
 ```css
@@ -31,7 +31,7 @@ Sticky positioning is a hybrid of **relative** and **fixed** positioning.
 
 The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
 
-*Browsers support is not yet optimal but is getting better: https://caniuse.com/#feat=css-sticky *
+*Browsers support is not yet optimal but is getting better: [caniuse.com/#feat=css-sticky](https://caniuse.com/#feat=css-sticky)*
 
 ```css
 .my-selector {
