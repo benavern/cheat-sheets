@@ -14,16 +14,8 @@ Setting position fixed on an element will cause it not to move with the document
 }
 ```
 
-```
+![fixed](../assets/images/css-positioning-4.png)
 
-
-
-image
-
-
-
-
-```
 
 # Sticky
 
@@ -40,13 +32,4 @@ The element is treated as relative positioned until it crosses a specified thres
 }
 ```
 
-```
-
-
-
-image
-
-
-
-
-```
+![sticky](../assets/images/css-positioning-5.png)

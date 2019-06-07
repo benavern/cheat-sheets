@@ -7,7 +7,9 @@ body {
 
   main div {
     img {
-      height: 230px;
+      // height: 230px;
+      max-width: 100%;
+      display: block;
     }
 
     p > code {

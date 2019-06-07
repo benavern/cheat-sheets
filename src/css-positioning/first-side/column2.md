@@ -8,16 +8,7 @@
 }
 ```
 
-```
-
-
-
-image
-
-
-
-
-```
+![relative](../assets/images/css-positioning-2.png)
 
 # Absolute
 
@@ -36,13 +27,4 @@ Its children will consider it as a reference for their positioning.
 }
 ```
 
-```
-
-
-
-image
-
-
-
-
-```
+![absolute](../assets/images/css-positioning-3.png)

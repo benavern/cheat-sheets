@@ -1,4 +1,4 @@
-Date: __April 2019__
+Date: __June 2019__
 
 # Static
 
@@ -15,16 +15,7 @@ No property of size, position, z-index...will affect it.
 }
 ```
 
-```
-
-
-
-image
-
-
-
-
-```
+![static](../assets/images/css-positioning-1.png)
 
 # Relative
 
